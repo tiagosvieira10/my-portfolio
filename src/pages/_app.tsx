@@ -16,9 +16,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <Link href={'/'}><Image src={logoImg} alt="" width={200} height={200}/></Link>
         </LogoContainer>
         
-        <Link href = {'/'}> <h1>Home</h1> </Link>
-        <Link href = {'/sobre'}> <h1>Sobre mim</h1> </Link>
-        <Link href = {'/portfolio'}> <h1>Portfólio</h1> </Link>
+        <Link href = {'/'}>Início</Link>
+        <Link href = {'/sobre'}>Sobre mim</Link>
+        <Link href = {'/portfolio'}>Portfólio</Link>
       </Header>
 
       <Component {...pageProps}/>

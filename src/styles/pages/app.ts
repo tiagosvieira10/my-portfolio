@@ -19,9 +19,9 @@ export const Header = styled('header', {
     color: '$corFonte',
 
     padding: '1rem',
-    fontWeight: 'lighter',
-    fontSize: 'small',
-    
+    fontSize: '1.5rem',
+    fontWeight: 'bolder',
+      
     '&:hover':{
       color: 'rgba(255, 255, 255, 1)',
     },
