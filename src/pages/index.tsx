@@ -1,14 +1,11 @@
 import { HomeContainer } from "@/styles/pages/home";
-import Head from "next/head";
 
 export default function Home(){
-  <Head>
-    <title>Tiago Vieira</title>
-  </Head>
 
   return(
     <HomeContainer>
-      
+      <h1> Oi, eu sou Tiago <br /> Software Developer</h1>
+      <span>Sou desenvolvedor de software, entusiasta em soluções através da tecnologia. Este é meu portfólio, onde você encontra um pouco mais sobre mim e meus projetos</span>
     </HomeContainer>
   )
 }

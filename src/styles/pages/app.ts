@@ -12,8 +12,7 @@ export const Header = styled('header', {
   width: '100%',
   maxWidth: 1180,
   margin:'0 auto',
-
-
+  
   a: {
     textDecoration: 'none',
     color: '$corFonte',
@@ -21,6 +20,8 @@ export const Header = styled('header', {
     padding: '1rem',
     fontSize: '1.5rem',
     fontWeight: 'bolder',
+
+    
       
     '&:hover':{
       color: 'rgba(255, 255, 255, 1)',
