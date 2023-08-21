@@ -19,6 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <Link href = {'/'}>Início</Link>
         <Link href = {'/sobre'}>Sobre mim</Link>
         <Link href = {'/portfolio'}>Portfólio</Link>
+        <Link href = {'/contatos'}>Contatos</Link>
       </Header>
 
       <Component {...pageProps}/>

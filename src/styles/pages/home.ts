@@ -2,20 +2,20 @@
 import { styled } from "..";
 
 export const HomeContainer = styled('div', {
- 
-  color: '$corFonte',
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'flex-start',
-  justifyContent: 'center',
-  minHeight: '100vh',
-  
+  maxWidth: 1240,
+  margin:'0 auto',
+
 
   h1: {
-    
+    color: 'white',
+    fontSize: '4.75rem',
+    width: '100%',
+    paddingTop: '4rem',
+    borderTop: '0.5rem solid white',
   },
 
   span: {
-    textAlign: 'justify',
+    fontSize: '1.4rem',
+    color: '$corFonte',
   }
 })

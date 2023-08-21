@@ -14,7 +14,7 @@ export const {
     colors: {
       corPrincipal: '#1b1f24',
       grey: '#333',
-      corFonte: '#c3cad5'
+      corFonte: '#c3cad5',
     },
   }
 })
