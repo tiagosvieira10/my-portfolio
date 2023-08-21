@@ -2,19 +2,19 @@
 import { styled } from "..";
 
 export const HomeContainer = styled('div', {
-  maxWidth: 1240,
+  maxWidth: 1300,
   margin: '10rem auto',
 
   div: {
     width: '10rem',
-    borderTop: '0.6rem solid white',
+    borderTop: '0.6rem solid $corSecundaria',
   },
   
   h1: {
     color: 'white',
     fontSize: '4.75rem',
     paddingTop: '4rem',
-    paddingBottom: '0.6rem',
+    paddingBottom: '1rem',
   },
 
   span: {

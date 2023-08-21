@@ -12,8 +12,8 @@ export const Header = styled('header', {
   alignItems: 'center',
   justifyContent: 'flex-end',
   width: '100%',
-  maxWidth: 1240,
-  margin:'0 auto',
+  maxWidth: 1300,
+  margin:'1rem auto',
   
   a: {
     textDecoration: 'none',
@@ -24,11 +24,22 @@ export const Header = styled('header', {
     fontWeight: 'bolder',
     
     '&:hover':{
-      color: 'rgba(255, 255, 255, 1)',
+      color: '$corSecundaria',
     },
   },
  })
 
 export const LogoContainer = styled('div', {
-  marginRight: 'auto'
+  marginRight: 'auto',
+  a: {
+    display:'flex',
+    color: 'white',
+    alignItems: 'center',
+    justifyContent: 'center',
+
+    '&:hover':{
+      color: 'white',
+    },
+  }
+
 })

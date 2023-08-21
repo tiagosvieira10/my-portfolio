@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <Container>  
       <Header>
         <LogoContainer>
-          <Link href={'/'}><Image src={logoImg} alt="" width={200} height={200}/></Link>
+          <Link href={'/'}><Image src={logoImg} alt="" width={50} height={50}/>TIAGO VIEIRA</Link>
         </LogoContainer>
         
         <Link href = {'/'}>Início</Link>

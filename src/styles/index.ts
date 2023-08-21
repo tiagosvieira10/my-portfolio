@@ -13,6 +13,7 @@ export const {
   theme: {
     colors: {
       corPrincipal: '#1b1f24',
+      corSecundaria: '#008BA4',
       grey: '#333',
       corFonte: '#c3cad5',
     },
