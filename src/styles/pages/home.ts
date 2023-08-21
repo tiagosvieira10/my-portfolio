@@ -3,19 +3,23 @@ import { styled } from "..";
 
 export const HomeContainer = styled('div', {
   maxWidth: 1240,
-  margin:'0 auto',
+  margin: '10rem auto',
 
-
+  div: {
+    width: '10rem',
+    borderTop: '0.6rem solid white',
+  },
+  
   h1: {
     color: 'white',
     fontSize: '4.75rem',
-    width: '100%',
     paddingTop: '4rem',
-    borderTop: '0.5rem solid white',
+    paddingBottom: '0.6rem',
   },
 
   span: {
     fontSize: '1.4rem',
     color: '$corFonte',
   }
+
 })
