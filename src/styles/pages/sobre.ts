@@ -33,14 +33,41 @@ export const HistoryContainer = styled('div',{
 
 export const SkillsContainer = styled('footer',{
   display: 'flex',
+  flexDirection: 'column',
   maxWidth: 1300,
   margin: 'auto',
+  borderTop: '1.2px solid $grey',
+
+  gap: '1rem',
+
+  
+  p:{
+    marginTop: '5rem',
+    marginBottom: '2rem',
+
+    span: {
+      color: '$corSecundaria',
+      marginRight: '5px',
+    },
+    fontSize: '1.5rem',
+    fontWeight: 'bold',
+    color: 'white',
+  }
 })
 
 export const Skills = styled('section', {
   display: 'flex',
   alignItems: 'center',
+  justifyContent: 'center',
+
   gap: '0.5rem',
+
+
+  height: '10rem',
+  width: '10rem',
+  borderRadius: '28px',
+
+  backgroundColor: '#2d343f',
 })
 
 

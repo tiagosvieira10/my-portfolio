@@ -19,8 +19,7 @@ export default function Sobre(){
       </AboutContainer>
 
       <SkillsContainer>
-        <span>/</span>
-        <p>Minhas Especialidades</p>
+        <p> <span>/</span> MINHAS ESPECIALIDADES </p>
 
         <Skills>
           <Atom  size={30}/>
