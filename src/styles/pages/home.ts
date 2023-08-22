@@ -12,7 +12,7 @@ export const HomeContainer = styled('div', {
   
   h1: {
     color: 'white',
-    fontSize: '5rem',
+    fontSize: '6rem',
     paddingTop: '4rem',
     paddingBottom: '1rem',
   },
@@ -69,4 +69,13 @@ export const ItemSidebar = styled('footer', {
     transform: 'translate(4px, 0px) skew(-20deg, 0deg)',
     transition: '0.3s'
   }
+})
+
+export const IconsContainer = styled('main',{
+  display: 'flex',
+  justifyContent: 'flex-end',
+  textDecoration: 'none',
+  
+  gap: '1rem',
+
 })

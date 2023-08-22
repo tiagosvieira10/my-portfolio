@@ -1,6 +1,6 @@
-import { HomeContainer, ItemSidebar, Sidebar } from "@/styles/pages/home";
+import { HomeContainer, IconsContainer, ItemSidebar, Sidebar } from "@/styles/pages/home";
 import Link from "next/link";
-import { ArrowRight } from "phosphor-react";
+import { ArrowRight, GithubLogo, LinkedinLogo, Scroll } from "phosphor-react";
 
 export default function Home(){
 
@@ -10,6 +10,12 @@ export default function Home(){
       <h1>Olá, eu sou Tiago <br/> Software Developer</h1>
       <span>Sou desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>
       
+      <IconsContainer>
+        <Link href= {'https://www.linkedin.com/in/tiago-svieira/'} target="blank" ><LinkedinLogo size={40} color="#008BA4" weight="duotone"/></Link>
+        <Link href= {'https://github.com/tiagosvieira10'} target="blank"><GithubLogo size={40} color="#008BA4" weight="duotone"/></Link>
+        <Link href= {'https://www.canva.com/design/DAFroEZFsxE/mMYlCX3U-uoJO94NKIM5PA/edit?utm_content=DAFroEZFsxE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} target="blank" ><Scroll size={40} color="#008BA4" weight="duotone"/></Link>
+      </IconsContainer>
+
       <Sidebar>
         <ItemSidebar>
           <span>Sobre mim</span>
@@ -29,6 +35,7 @@ export default function Home(){
           <Link href={'/contatos'}>ENTRE EM CONTATO<ArrowRight size={25}/></Link>
         </ItemSidebar>
       </Sidebar>
+
 
     </HomeContainer>
   )
