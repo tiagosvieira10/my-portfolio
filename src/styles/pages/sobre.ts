@@ -37,10 +37,10 @@ export const SkillsContainer = styled('footer',{
   maxWidth: 1300,
   margin: 'auto',
   borderTop: '1.2px solid $grey',
+  borderBottom: '1.2px solid $grey',
 
   gap: '1rem',
 
-  
   p:{
     marginTop: '5rem',
     marginBottom: '2rem',
@@ -56,18 +56,33 @@ export const SkillsContainer = styled('footer',{
 })
 
 export const Skills = styled('section', {
-  display: 'flex',
+  display: 'block',
   alignItems: 'center',
   justifyContent: 'center',
 
-  gap: '0.5rem',
+  margin: 'auto',
 
-
-  height: '10rem',
-  width: '10rem',
+  height: '11rem',
+  width: '19rem',
   borderRadius: '28px',
 
   backgroundColor: '#2d343f',
+  color: 'white',
+  fontSize: '1rem',
+
+  h2: {
+    margin: '0 2rem',
+  }
+})
+
+export const CardSkills = styled('section', {
+  display: 'flex',
+  flexWrap: 'wrap',
+  
+  gap: '1.5rem',
+
+  marginBottom: '5rem'
+
 })
 
 

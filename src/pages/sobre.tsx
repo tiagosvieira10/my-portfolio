@@ -1,5 +1,7 @@
-import { AboutContainer, HistoryContainer, Skills, SkillsContainer } from "@/styles/pages/sobre";
+import { AboutContainer, CardSkills, HistoryContainer, Skills, SkillsContainer } from "@/styles/pages/sobre";
 import fotoPerfil from '../assets/foto.svg';
+import { React, Next, Vite, Javascript, Typescript, Html, Css, Node  } from '../assets/logosSkills';
+
 import { Atom } from "phosphor-react";
 import Image from "next/image";
 
@@ -21,45 +23,48 @@ export default function Sobre(){
       <SkillsContainer>
         <p> <span>/</span> MINHAS ESPECIALIDADES </p>
 
+      <CardSkills>
         <Skills>
-          <Atom  size={30}/>
+          <Image src={React} width={100} height={100} alt=""/>
           <h2>React</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Next} width={100} height={100} alt=""/>
+          <h2>Next.js</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Vite} width={100} height={100} alt=""/>
+          <h2>Vite</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Javascript} width={100} height={100} alt=""/>
+          <h2>JavaScript</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Typescript} width={100} height={100} alt=""/>
+          <h2>TypeScript</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Html} width={100} height={100} alt=""/>
+          <h2>HTML</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Css} width={100} height={100} alt=""/>
+          <h2>CSS</h2>
         </Skills>
 
         <Skills>
-          <Atom  size={30}/>
-          <h2>React</h2>
+          <Image src={Node} width={100} height={100} alt=""/>
+          <h2>Node</h2>
         </Skills>
+
+      </CardSkills>
       </SkillsContainer>
 
     </>
