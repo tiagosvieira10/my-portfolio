@@ -70,5 +70,10 @@ export const Contato = styled('section',{
     height: '50%',
     borderRadius: '28px',
 
+    '&:hover': {
+      cursor: 'pointer',
+      backgroundColor: '$corSecundaria',
+      fontSize: '1.1rem',
+    }
   }
 })
