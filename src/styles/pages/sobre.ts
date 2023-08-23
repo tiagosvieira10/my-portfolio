@@ -37,7 +37,6 @@ export const SkillsContainer = styled('footer',{
   maxWidth: 1300,
   margin: 'auto',
   borderTop: '1.2px solid $grey',
-  borderBottom: '1.2px solid $grey',
 
   gap: '1rem',
 
@@ -84,6 +83,37 @@ export const CardSkills = styled('section', {
   marginBottom: '5rem'
 
 })
+
+export const EducationContainer = styled('section', {
+  display: 'flex',
+  flexDirection: 'column',
+  maxWidth: 1300,
+  margin: 'auto',
+
+  gap: '1rem',
+
+  p:{
+    marginTop: '5rem',
+    marginBottom: '2rem',
+
+    span: {
+      color: '$corSecundaria',
+      marginRight: '5px',
+    },
+    fontSize: '1.5rem',
+    fontWeight: 'bold',
+    color: 'white',
+  }
+})
+
+export const CardEducation = styled('section', {
+
+})
+
+export const Education = styled('section', {
+
+})
+
 
 
 
