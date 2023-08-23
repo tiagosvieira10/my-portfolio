@@ -107,11 +107,36 @@ export const EducationContainer = styled('section', {
 })
 
 export const CardEducation = styled('section', {
-
+  borderLeft: '1px solid $corFonte',
+  padding: '0 2rem',
+  
 })
 
 export const Education = styled('section', {
+  marginBottom: '2rem',
+  padding: '1.5rem',
+  lineHeight: '4rem',
+  
+  maxWidth: '80%',
+  
+  h3:{
+    fontSize: '1.4rem',
+    color: '$corFonte',
+    strong:{
+      color: '$corSecundaria'
+    }
+  },
 
+  h1:{
+    fontSize: '2.4rem',
+    color: 'white'
+  },
+
+  h4: {
+    fontSize: '1.1rem',
+    color: '$corFonte',
+    lineHeight: '2rem'
+  }
 })
 
 
