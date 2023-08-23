@@ -22,22 +22,23 @@ export default function Contatos() {
   // )
   return(
     <ContatosContainer>
+      <h1>Contatos</h1>
       <CardContato>
+        <p><span>|</span> EMAIL</p>
         <Contato>
-          <p><span>|</span> Email</p>
-          <h1>tiagosvieira10@gmail.com</h1>
-          <button>copiar</button>
+          <h2>tiagosvieira10@gmail.com</h2>
+          <button>Copiar Email</button>
         </Contato>
 
+        <p><span>|</span> TELEFONE</p>
         <Contato>
-          <p><span>|</span> Telefone</p>
-          <h1>(87) 9 9243-8502</h1>
-          <button>copiar</button>
+          <h2>(87) 9 9243-8502</h2>
+          <button>Copiar Telefone</button>
         </Contato>
 
+        <p><span>|</span> LINKEDIN</p>
         <Contato>
-          <p><span>|</span> Linkedin</p>
-          <h1>tiagosvieira10@gmail.com</h1>
+          <h2>tiago-svieira/</h2>
           <button><Link href={'https://www.linkedin.com/in/tiago-svieira/'} target="blank">Ir para Linkedin</Link></button>
         </Contato>
       </CardContato>
