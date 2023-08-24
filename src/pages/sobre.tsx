@@ -38,13 +38,13 @@ export default function Sobre(){
           </Skills>
 
           <Skills>
-            <Image src={Javascript} width={100} height={100} alt=""/>
-            <h2>JavaScript</h2>
+            <Image src={Typescript} width={100} height={100} alt=""/>
+            <h2>TypeScript</h2>
           </Skills>
 
           <Skills>
-            <Image src={Typescript} width={100} height={100} alt=""/>
-            <h2>TypeScript</h2>
+            <Image src={Javascript} width={100} height={100} alt=""/>
+            <h2>JavaScript</h2>
           </Skills>
 
           <Skills>
