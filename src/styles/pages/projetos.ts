@@ -6,8 +6,8 @@ export const ProjetosContainer = styled('main',{
   maxWidth: 1300,
   margin: '5rem auto 0',
   
-  alignItems: 'center',
-  justifyContent: 'flex',
+  // alignItems: 'center',
+  // justifyContent: 'flex',
 
   p: {
     color: 'white',
@@ -16,7 +16,6 @@ export const ProjetosContainer = styled('main',{
   },
 
   span: {
-    display: 'none',
     color: '$corSecundaria'
   }
 })
@@ -27,6 +26,8 @@ export const CardProjetos = styled('section',{
   alignItems: 'center',
   
   gap: '1rem',
+
+  marginBottom: '2gitprem'
 })
 
 export const Projeto = styled('section',{
