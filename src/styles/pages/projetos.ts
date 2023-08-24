@@ -29,5 +29,5 @@ export const CardProjetos = styled('section',{
 })
 
 export const Projeto = styled('section',{
-  borderBottom: '1px solid $grey'
+  borderBottom: '1px solid $corSecundaria'
 })
