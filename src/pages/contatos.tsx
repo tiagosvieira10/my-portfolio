@@ -1,25 +1,28 @@
 // import { useState } from 'react';
 import { CardContato, Contato, ContatosContainer } from "@/styles/pages/contatos";
 import Link from "next/link"
+import { useState } from "react";
 
 export default function Contatos() { 
-  // const [copied, setCopied] = useState(false);
-  // const textToCopy = 'tiagosvieira@gmail.com';
+  const [copiedEmail, setCopiedEmail] = useState(false);
+  const emailToCopy = 'tiagosvieira@gmail.com';
 
-  // const copyToClipboard = () => {
-  //   navigator.clipboard.writeText(textToCopy);
-  //   setCopied(true);
-  //   setTimeout(() => setCopied(false), 2000);
-  // };
+  const [copiedTelefone, setCopiedTelefone] = useState(false);
+  const telefoneToCopy = '087992438502';
+
+
+  const copyEmailToClipboard = () => {
+    navigator.clipboard.writeText(emailToCopy);
+    setCopiedEmail(true);
+    setTimeout(() => setCopiedEmail(false), 2000);
+  };
+
+  const copyTelefoneToClipboard = () => {
+    navigator.clipboard.writeText(telefoneToCopy);
+    setCopiedTelefone(true);
+    setTimeout(() => setCopiedTelefone(false), 2000);
+  };
   
-  // return(
-  //   <ContatosContainer>
-  //     <p>{textToCopy}</p>
-  //     <button onClick={copyToClipboard}>
-  //       {copied ? 'Email copiado!' : 'Copiar'}
-  //     </button>
-  //   </ContatosContainer>
-  // )
   return(
     <ContatosContainer>
       <h1>Contatos</h1>
@@ -27,13 +30,17 @@ export default function Contatos() {
         <p><span>|</span> EMAIL</p>
         <Contato>
           <h2>tiagosvieira10@gmail.com</h2>
-          <button>Copiar Email</button>
+          <button onClick={copyEmailToClipboard}>
+            {copiedEmail ? 'Email copiado!' : 'Copiar Email'}
+          </button>
         </Contato>
 
         <p><span>|</span> TELEFONE</p>
         <Contato>
           <h2>(87) 9 9243-8502</h2>
-          <button>Copiar Telefone</button>
+          <button onClick={copyTelefoneToClipboard}>
+            {copiedTelefone ? 'Telefone copiado!' : 'Copiar Telefone'}
+          </button>
         </Contato>
 
         <p><span>|</span> LINKEDIN</p>
