@@ -74,6 +74,7 @@ export const Contato = styled('section',{
       cursor: 'pointer',
       backgroundColor: '$corSecundaria',
       fontSize: '1.1rem',
-    }
+    },
+    transition: '0.5s'
   }
 })
