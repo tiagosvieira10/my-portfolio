@@ -27,7 +27,7 @@ export const CardProjetos = styled('section',{
   
   gap: '1rem',
 
-  marginBottom: '2gitprem'
+  marginBottom: '2rem'
 })
 
 export const Projeto = styled('section',{
@@ -51,5 +51,5 @@ export const Projeto = styled('section',{
   h4: {
     fontSize: '1.2rem',
     color: '$corFonte',
-  }
+  },
 })
