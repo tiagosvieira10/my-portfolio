@@ -12,7 +12,7 @@ export const Header = styled('header', {
   alignItems: 'center',
   justifyContent: 'flex-end',
   width: '100%',
-  maxWidth: 1300,
+  maxWidth: 1250,
   margin:'1rem auto',
   
   a: {

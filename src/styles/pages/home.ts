@@ -2,7 +2,7 @@
 import { styled } from "..";
 
 export const HomeContainer = styled('div', {
-  maxWidth: 1300,
+  maxWidth: 1250,
   margin: '10rem auto',
 
   div: {
@@ -20,13 +20,29 @@ export const HomeContainer = styled('div', {
   span: {
     fontSize: '1.4rem',
     color: '$corFonte',
-  }
+  },
 
+  // '@media screen and (max-width: 768px)': {
+  //   maxWidth: '95%',
+  //   margin: '5rem auto',
+
+  //   h1: {
+  //     fontSize: '2.3rem',
+  //     paddingTop: '2rem',
+  //     paddingBottom: '0.5rem',
+  //   },
+
+  //   span: {
+  //     fontSize: '1rem',
+  //   },
+
+    // ... other styles ...
+  // }
 })
 
 export const Sidebar = styled('footer', {
   display: 'flex',
-  margin: '11rem auto',
+  margin: '8rem auto',
   justifyContent: 'space-between',
   alignItems: 'center',
   justifyItems: 'center'
@@ -79,3 +95,4 @@ export const IconsContainer = styled('main',{
   gap: '1rem',
 
 })
+

@@ -2,8 +2,8 @@ import { styled } from "..";
 
 export const AboutContainer = styled('main',{
   display: 'flex',
-  maxWidth: 1300,
-  margin: '10rem auto',
+  maxWidth: 1250,
+  margin: '5rem auto',
   alignItems: 'flex-end',
   justifyContent: 'space-between'
 })
@@ -34,7 +34,7 @@ export const HistoryContainer = styled('div',{
 export const SkillsContainer = styled('footer',{
   display: 'flex',
   flexDirection: 'column',
-  maxWidth: 1300,
+  maxWidth: 1250,
   margin: 'auto',
   borderTop: '1.2px solid $grey',
 
@@ -62,7 +62,7 @@ export const Skills = styled('section', {
   margin: 'auto',
 
   height: '11rem',
-  width: '19rem',
+  width: '17rem',
   borderRadius: '28px',
 
   backgroundColor: '#2d343f',
@@ -78,7 +78,7 @@ export const CardSkills = styled('section', {
   display: 'flex',
   flexWrap: 'wrap',
   
-  gap: '1.5rem',
+  gap: '1rem',
 
   marginBottom: '5rem'
 
@@ -87,7 +87,7 @@ export const CardSkills = styled('section', {
 export const EducationContainer = styled('section', {
   display: 'flex',
   flexDirection: 'column',
-  maxWidth: 1300,
+  maxWidth: 1250,
   margin: 'auto',
 
   gap: '1rem',
@@ -102,13 +102,13 @@ export const EducationContainer = styled('section', {
     },
     fontSize: '1.5rem',
     fontWeight: 'bold',
-    color: 'white',
+    color: 'white'
   }
 })
 
 export const CardEducation = styled('section', {
   borderLeft: '1px solid $corFonte',
-  padding: '0 2rem',
+  padding: '0 1rem',
   
 })
 

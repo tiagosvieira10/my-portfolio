@@ -3,8 +3,8 @@ import { styled } from "..";
 export const ProjetosContainer = styled('main',{
   display: 'flex',
   flexDirection: 'column',
-  maxWidth: 1300,
-  margin: '5rem auto 0',
+  maxWidth: 1250,
+  margin: '4rem auto 0',
   
   // alignItems: 'center',
   // justifyContent: 'flex',
@@ -56,7 +56,7 @@ export const Projeto = styled('section',{
   img:{
     '&:hover': {
       transition: 'transform 0.3s',
-      transform: 'scale(1.05)'
+      transform: 'scale(1.07)'
     }
   }
 })
