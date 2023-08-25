@@ -8,7 +8,7 @@ export default function Home(){
     <HomeContainer>
       <div></div>
       <h1>Olá, eu sou Tiago <br/> Software Developer</h1>
-      <span>Sou desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>
+      <span>Desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>
       
       <IconsContainer>
         <Link href= {'https://www.linkedin.com/in/tiago-svieira/'} target="blank" ><LinkedinLogo size={40} color="#008BA4" weight="duotone"/></Link>

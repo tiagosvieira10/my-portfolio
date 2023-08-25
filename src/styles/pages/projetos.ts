@@ -52,4 +52,11 @@ export const Projeto = styled('section',{
     fontSize: '1.2rem',
     color: '$corFonte',
   },
+
+  img:{
+    '&:hover': {
+      transition: 'transform 0.3s',
+      transform: 'scale(1.05)'
+    }
+  }
 })
