@@ -3,7 +3,7 @@ import { styled } from "..";
 
 export const HomeContainer = styled('div', {
   maxWidth: 1250,
-  margin: '10rem auto',
+  margin: '3rem auto',
 
   div: {
     width: '10rem',
@@ -42,7 +42,7 @@ export const HomeContainer = styled('div', {
 
 export const Sidebar = styled('footer', {
   display: 'flex',
-  margin: '8rem auto',
+  margin: '3rem auto',
   justifyContent: 'space-between',
   alignItems: 'center',
   justifyItems: 'center'
@@ -92,7 +92,6 @@ export const IconsContainer = styled('main',{
   justifyContent: 'flex-end',
   textDecoration: 'none',
   
-  gap: '1rem',
-
+  gap: '2rem',
 })
 

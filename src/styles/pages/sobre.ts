@@ -3,9 +3,15 @@ import { styled } from "..";
 export const AboutContainer = styled('main',{
   display: 'flex',
   maxWidth: 1250,
-  margin: '5rem auto',
+  margin: '3rem auto',
   alignItems: 'flex-end',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+
+  figcaption: {
+    fontStyle: 'italic',
+    color: '$corFonte',
+    textAlign: 'center',
+  }
 })
 
 export const HistoryContainer = styled('div',{
@@ -80,7 +86,7 @@ export const CardSkills = styled('section', {
   
   gap: '1rem',
 
-  marginBottom: '5rem'
+  marginBottom: '1rem'
 
 })
 

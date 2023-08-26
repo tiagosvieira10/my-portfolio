@@ -13,8 +13,10 @@ export default function Sobre(){
           <span>Minha trajetória na programação teve início em 2018, quando dei os primeiros passos no mundo da lógica de programação e em C++. Após uma pausa para cursar Engenharia na Universidade Federal do Vale do São Francisco, retomei meu percurso no início de 2022. Foi nesse momento que redescobri meu fascínio pelo universo do JavaScript e suas incríveis possibilidades</span>
         </HistoryContainer>
 
-        <Image src= {fotoPerfil} width={190} height={190} alt="" />
-
+        <figure>
+          <Image src= {fotoPerfil} width={190} height={190} alt="" />
+          <figcaption>Tiago Silva Vieira.<br />Pernambuco, Brasil</figcaption>
+        </figure>
 
       </AboutContainer>
 
@@ -71,7 +73,7 @@ export default function Sobre(){
           <Education>
             <h3>DIGITAL HOUSE BRASIL <strong> /</strong> AGOSTO 2022 - MAIO 2023</h3>
             <h1>Desenvolvimento de Software</h1>
-            <h4>Curso intensivo para desenvolver aplicações do zero até se tornar um profissional programador. Dominando a criação de sites robustos, desenvolvimento de aplicações modernas e adquirindo habilidades tanto no Front-end quanto no Back-end. Além das competências técnicas, desenvolvi soft skills como trabalho em equipe, resolução de problemas e metodologias ágeis.</h4>
+            <h4>Curso intensivo para desenvolver aplicações do zero até a proficiência em programação. Dominando a criação de sites robustos, desenvolvimento de aplicações modernas e adquirindo habilidades tanto no Front-end quanto no Back-end. Além das competências técnicas, desenvolvi soft skills como trabalho em equipe, resolução de problemas e metodologias ágeis.</h4>
           </Education>
 
           <Education>

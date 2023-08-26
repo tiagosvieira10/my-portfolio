@@ -13,7 +13,6 @@ export default function Home(){
       <IconsContainer>
         <Link href= {'https://www.linkedin.com/in/tiago-svieira/'} target="blank" ><LinkedinLogo size={40} color="#008BA4" weight="duotone"/></Link>
         <Link href= {'https://github.com/tiagosvieira10'} target="blank"><GithubLogo size={40} color="#008BA4" weight="duotone"/></Link>
-        <Link href= {'https://www.canva.com/design/DAFroEZFsxE/mMYlCX3U-uoJO94NKIM5PA/edit?utm_content=DAFroEZFsxE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} target="blank" ><Scroll size={40} color="#008BA4" weight="duotone"/></Link>
       </IconsContainer>
 
       <Sidebar>

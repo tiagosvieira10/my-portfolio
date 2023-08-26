@@ -4,7 +4,7 @@ export const ProjetosContainer = styled('main',{
   display: 'flex',
   flexDirection: 'column',
   maxWidth: 1250,
-  margin: '4rem auto 0',
+  margin: '3rem auto 0',
   
   // alignItems: 'center',
   // justifyContent: 'flex',
@@ -25,7 +25,7 @@ export const CardProjetos = styled('section',{
   flexDirection: 'column',
   alignItems: 'center',
   
-  gap: '1rem',
+  // gap: '1rem',
 
   marginBottom: '2rem'
 })
