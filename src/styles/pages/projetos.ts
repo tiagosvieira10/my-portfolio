@@ -17,6 +17,11 @@ export const ProjetosContainer = styled('main',{
 
   span: {
     color: '$corSecundaria'
+  },
+
+  '@media screen and (max-width: 768px)': {
+    padding: '1.3rem',
+    margin: '2rem auto',
   }
 })
 
@@ -25,9 +30,9 @@ export const CardProjetos = styled('section',{
   flexDirection: 'column',
   alignItems: 'center',
   
-  // gap: '1rem',
+  marginBottom: '2rem',
 
-  marginBottom: '2rem'
+
 })
 
 export const Projeto = styled('section',{
@@ -58,5 +63,9 @@ export const Projeto = styled('section',{
       transition: 'transform 0.3s',
       transform: 'scale(1.07)'
     }
+  },
+
+  '@media screen and (max-width: 768px)': {
+    
   }
 })

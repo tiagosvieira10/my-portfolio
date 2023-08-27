@@ -22,22 +22,25 @@ export const HomeContainer = styled('div', {
     color: '$corFonte',
   },
 
-  // '@media screen and (max-width: 768px)': {
-  //   maxWidth: '95%',
-  //   margin: '5rem auto',
+  '@media screen and (max-width: 768px)': {
+    padding: '1.3rem',
+    margin: '2rem auto',
 
-  //   h1: {
-  //     fontSize: '2.3rem',
-  //     paddingTop: '2rem',
-  //     paddingBottom: '0.5rem',
-  //   },
+    h1: {
+      fontSize: '2.3rem',
+      paddingTop: '2rem',
+      paddingBottom: '0.5rem',
+    },
 
-  //   span: {
-  //     fontSize: '1rem',
-  //   },
+    div: {
+      width: '8rem',
+      borderTop: '0.4rem solid $corSecundaria',
+    },
 
-    // ... other styles ...
-  // }
+    span: {
+      fontSize: '1rem',
+    },
+  }
 })
 
 export const Sidebar = styled('footer', {
@@ -45,7 +48,26 @@ export const Sidebar = styled('footer', {
   margin: '3rem auto',
   justifyContent: 'space-between',
   alignItems: 'center',
-  justifyItems: 'center'
+  justifyItems: 'center',
+
+  '@media screen and (max-width: 768px)': {
+
+    flexDirection: 'column',
+    gap: '1.5rem',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    margin: '1rem auto',
+
+    h1: {
+      fontSize: '2.3rem',
+      paddingTop: '2rem',
+      paddingBottom: '0.5rem',
+    },
+
+    span: {
+      fontSize: '1rem',
+    },
+  }
 })
 
 export const ItemSidebar = styled('footer', {
@@ -84,6 +106,15 @@ export const ItemSidebar = styled('footer', {
   'a:hover':{
     transform: 'translate(4px, 0px) skew(-20deg, 0deg)',
     transition: '0.3s'
+  },
+
+  '@media screen and (max-width: 768px)': {
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+
+  
+    gap: '1rem',
+    borderRight:'none',
   }
 })
 
@@ -92,6 +123,15 @@ export const IconsContainer = styled('main',{
   justifyContent: 'flex-end',
   textDecoration: 'none',
   
-  gap: '2rem',
+  gap: '1rem',
+
+  '@media screen and (max-width: 768px)': {
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
+
+    marginTop:'2rem',  
+
+    gap: '1rem'
+  }
 })
 

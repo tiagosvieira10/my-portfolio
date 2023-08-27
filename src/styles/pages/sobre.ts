@@ -8,10 +8,20 @@ export const AboutContainer = styled('main',{
   justifyContent: 'space-between',
 
   figcaption: {
+    fontSize: '0.8rem',
     fontStyle: 'italic',
     color: '$corFonte',
     textAlign: 'center',
-  }
+  },
+
+  '@media screen and (max-width: 768px)': {
+    padding: '1.3rem',
+    margin: '2rem auto',
+
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  }  
 })
 
 export const HistoryContainer = styled('div',{
@@ -34,7 +44,32 @@ export const HistoryContainer = styled('div',{
     fontSize: '1.5rem',
     color: '$corFonte',
     lineHeight: '1.9'
+  },
+
+  //Responsividade
+  '@media screen and (max-width: 768px)': {
+    maxWidth: '100vh',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+    margin: '2rem auto',
+    
+
+    h1: {
+      fontSize: '2.3rem',
+      paddingTop: '2rem',
+      paddingBottom: '0.5rem',
+    },
+
+    div: {
+      width: '8rem',
+      borderTop: '0.4rem solid $corFonte',
+    },
+
+    span: {
+      fontSize: '1rem',
+    },
   }
+
 })
 
 export const SkillsContainer = styled('footer',{
@@ -57,7 +92,12 @@ export const SkillsContainer = styled('footer',{
     fontSize: '1.5rem',
     fontWeight: 'bold',
     color: 'white',
-  }
+  },
+
+  '@media screen and (max-width: 768px)': {
+    padding: '1.3rem',
+    margin: '0 auto',
+  }  
 })
 
 export const Skills = styled('section', {
@@ -86,7 +126,8 @@ export const CardSkills = styled('section', {
   
   gap: '1rem',
 
-  marginBottom: '1rem'
+  marginBottom: '1rem',
+  
 
 })
 
@@ -109,6 +150,11 @@ export const EducationContainer = styled('section', {
     fontSize: '1.5rem',
     fontWeight: 'bold',
     color: 'white'
+  },
+
+  '@media screen and (max-width: 768px)': {
+    padding: '1.3rem',
+    margin: '2rem auto',
   }
 })
 
@@ -142,6 +188,24 @@ export const Education = styled('section', {
     fontSize: '1.1rem',
     color: '$corFonte',
     lineHeight: '2rem'
+  },
+
+  '@media screen and (max-width: 768px)': {
+    
+    h3: {
+      fontSize: '1rem',
+      lineHeight: '2rem',
+      marginBottom: '1rem'
+    },
+    h1: {
+      fontSize: '2rem',
+      lineHeight: '2rem',
+      marginBottom: '1rem'
+    },
+    h4: {
+      fontSize: '0.9rem',
+      lineHeight: '2rem',
+    }
   }
 })
 

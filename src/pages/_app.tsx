@@ -16,10 +16,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <Link href={'/'}><Image src={logoImg} alt="" width={50} height={50}/>TIAGO VIEIRA</Link>
         </LogoContainer>
         
-        <Link href = {'/'}>Início</Link>
-        <Link href = {'/sobre'}>Sobre mim</Link>
-        <Link href = {'/portfolio'}>Portfólio</Link>
-        <Link href = {'/contatos'}>Contatos</Link>
+        <div className={`menu-items ${'showMenu' ? 'show' : ''}`}>
+          <Link href = {'/'}>Início</Link>
+          <Link href = {'/sobre'}>Sobre mim</Link>
+          <Link href = {'/portfolio'}>Portfólio</Link>
+          <Link href = {'/contatos'}>Contatos</Link>
+        </div>
       </Header>
 
       <Component {...pageProps}/>

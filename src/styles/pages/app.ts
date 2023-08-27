@@ -26,7 +26,7 @@ export const Header = styled('header', {
     '&:hover':{
       color: '$corSecundaria',
     },
-  },
+  }
  })
 
 export const LogoContainer = styled('div', {
