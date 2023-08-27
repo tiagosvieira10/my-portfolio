@@ -66,6 +66,21 @@ export const Projeto = styled('section',{
   },
 
   '@media screen and (max-width: 768px)': {
+    borderBottom: 'none',
     
+    h2: {
+      width: '100vh'
+    },
+
+    h4: {
+      width: '90vh',
+      paddingBottom: '2rem',
+      borderBottom: '1px solid $corSecundaria',
+    },
+
+    img:{ 
+      marginBottom: '2rem'
+    }
+
   }
 })
