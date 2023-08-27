@@ -1,11 +1,16 @@
 import { HomeContainer, IconsContainer, ItemSidebar, Sidebar } from "@/styles/pages/home";
 import Link from "next/link";
 import { ArrowRight, GithubLogo, LinkedinLogo, Scroll } from "phosphor-react";
+import Head from "next/head";
 
 export default function Home(){
 
   return(
     <HomeContainer>
+      <Head>
+        <title>Início | Tiago Vieira</title>
+      </Head>
+
       <div></div>
       <h1>Olá, eu sou Tiago <br/> Software Developer</h1>
       <span>Desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>

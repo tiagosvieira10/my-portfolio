@@ -2,6 +2,7 @@
 import { CardContato, Contato, ContatosContainer } from "@/styles/pages/contatos";
 import Link from "next/link"
 import { useState } from "react";
+import Head from "next/head";
 
 export default function Contatos() { 
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -25,6 +26,9 @@ export default function Contatos() {
   
   return(
     <ContatosContainer>
+      <Head>
+        <title>Contatos | Tiago Vieira</title>
+      </Head>
       <h1>Contatos</h1>
       <CardContato>
         <p><span>|</span> EMAIL</p>

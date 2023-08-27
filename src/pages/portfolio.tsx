@@ -3,10 +3,14 @@ import { P1, P2, P3, P4, P5, P6, P7, P8, Portfolio } from "@/assets/projetosLive
 import { CardProjetos, Projeto, ProjetosContainer } from "@/styles/pages/projetos";
 import Image from "next/image";
 import Link from 'next/link';
+import Head from "next/head";
 
 export default function Portifolio(){
   return (
     <ProjetosContainer>
+      <Head>
+        <title>Portfólio | Tiago Vieira</title>
+      </Head>
     <p> <span>/</span> MEUS PROJETOS </p>
 
     <CardProjetos>

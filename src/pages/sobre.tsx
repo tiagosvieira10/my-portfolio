@@ -2,10 +2,14 @@ import { AboutContainer, CardEducation, CardSkills, Education, EducationContaine
 import fotoPerfil from '../assets/foto.svg';
 import { React, Next, Vite, Javascript, Typescript, Html, Css, Node  } from '../assets/logosSkills';
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Sobre(){
   return(
     <>
+      <Head>
+        <title>Sobre | Tiago Vieira</title>
+      </Head>
       <AboutContainer>
         <HistoryContainer>
           <div></div>
