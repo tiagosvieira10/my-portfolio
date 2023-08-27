@@ -12,6 +12,11 @@ export const ContatosContainer = styled('main',{
   h1: {
     color: 'white',
     fontSize: '3rem',
+  },
+
+  '@media screen and (max-width: 768px)': {
+    padding: '1.3rem',
+    margin: '2rem auto',
   }
 })
 export const CardContato = styled('section',{
@@ -28,6 +33,10 @@ export const CardContato = styled('section',{
     span: {
       color: '$corSecundaria'
     }
+  },
+
+  '@media screen and (max-width: 768px)': {
+    margin: '3rem',
   }
 })
 
@@ -75,6 +84,6 @@ export const Contato = styled('section',{
       backgroundColor: '$corSecundaria',
       fontSize: '1.1rem',
     },
-    transition: '0.5s'
+    transition: '0.5s',
   }
 })
