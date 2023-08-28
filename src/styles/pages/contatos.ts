@@ -103,9 +103,8 @@ export const Contato = styled('section',{
     },
 
     '&:hover': {
-      cursor: 'pointer',
-      backgroundColor: '$corSecundaria',
-      fontSize: '1.2rem',
+      fonfontSize: '1.2rem',
+      backgroundColor: 'none',
     },
   }
 })
