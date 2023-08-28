@@ -4,15 +4,14 @@ export const ProjetosContainer = styled('main',{
   display: 'flex',
   flexDirection: 'column',
   maxWidth: 1250,
-  margin: '3rem auto 0',
+  margin: '3rem auto',
   
-  // alignItems: 'center',
-  // justifyContent: 'flex',
 
   p: {
     color: 'white',
     fontSize: '2rem',
     fontWeight: 'bold',
+    position: 'absolute'
   },
 
   span: {
@@ -31,11 +30,11 @@ export const CardProjetos = styled('section',{
   alignItems: 'center',
   
   marginBottom: '2rem',
-
-
 })
 
 export const Projeto = styled('section',{
+  
+  margin: '5rem auto',
   borderBottom: '1px solid $corSecundaria',
   paddingBottom: '1.5rem',
 

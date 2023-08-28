@@ -30,7 +30,7 @@ export default function Home(){
         <ItemSidebar>
           <span>Meus Trabalhos</span>
           <p>Aqui estão alguns dos meus projetos</p>
-          <Link href={'/portfolio'}>VER MAIS<ArrowRight size={25}/></Link>
+          <Link href={'/projetos'}>VER MAIS<ArrowRight size={25}/></Link>
         </ItemSidebar>
         
         <ItemSidebar>

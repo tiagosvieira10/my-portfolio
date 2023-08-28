@@ -34,9 +34,9 @@ export const Header = styled('header', {
   },
 
   '@media screen and (max-width: 768px)': {
-    justifyContent: 'center', // Centralizando os elementos horizontalmente
+    justifyContent: 'center',
+    alignItems: 'center',
     margin: 0,
-
     
     a: {
       display: 'none',

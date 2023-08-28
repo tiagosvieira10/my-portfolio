@@ -7,6 +7,7 @@ import Head from "next/head";
 
 export default function Portifolio(){
   return (
+
     <ProjetosContainer>
       <Head>
         <title>Portfólio | Tiago Vieira</title>

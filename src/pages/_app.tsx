@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <div className={`menu-items ${'showMenu' ? 'show' : ''}`}>
           <Link href = {'/'}>Início</Link>
           <Link href = {'/sobre'}>Sobre mim</Link>
-          <Link href = {'/portfolio'}>Portfólio</Link>
+          <Link href = {'/projetos'}>Projetos</Link>
           <Link href = {'/contatos'}>Contatos</Link>
         </div>
       </Header>
