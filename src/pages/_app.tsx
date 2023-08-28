@@ -5,6 +5,7 @@ import logoImg from '../assets/logo.svg'
 import Image from "next/image"
 import Link from "next/link"
 import { AppProps } from "next/app"
+import { MenuIcon } from "@/styles/pages/app"
 
 globalStyles()
 
@@ -22,7 +23,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <Link href = {'/projetos'}>Projetos</Link>
           <Link href = {'/contatos'}>Contatos</Link>
         </div>
+        <MenuIcon><Link href = {'/menu'}>☰</Link></MenuIcon>    
       </Header>
+      
 
       <Component {...pageProps}/>
 

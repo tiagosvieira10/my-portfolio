@@ -34,9 +34,8 @@ export const Header = styled('header', {
   },
 
   '@media screen and (max-width: 768px)': {
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    margin: 0,
     
     a: {
       display: 'none',
@@ -59,9 +58,25 @@ export const LogoContainer = styled('div', {
     
   },
   '@media screen and (max-width: 768px)': {
-    alignItems: 'center', // Centralizando os elementos verticalmente
+    alignItems: 'center',
     marginRight: 0, 
     
   }
 
 })
+
+export const MenuIcon = styled('div', {
+  display: 'none', // Esconde o ícone de menu por padrão em telas maiores
+
+  '@media screen and (max-width: 768px)': {
+    display: 'flex',
+    cursor: 'pointer',
+  
+    a: {
+      color: '$corSecundaria',
+      fontSize: '1.5rem',
+      display: 'block',
+    }
+    
+  },
+});
