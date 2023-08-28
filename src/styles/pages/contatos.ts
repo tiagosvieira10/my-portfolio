@@ -100,6 +100,12 @@ export const Contato = styled('section',{
 
     h2: {
       fontSize: '1.2rem'
-    }
+    },
+
+    '&:hover': {
+      cursor: 'pointer',
+      backgroundColor: '$corSecundaria',
+      fontSize: '1.2rem',
+    },
   }
 })
