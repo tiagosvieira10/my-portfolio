@@ -4,7 +4,7 @@ export const ProjetosContainer = styled('main',{
   display: 'flex',
   flexDirection: 'column',
   maxWidth: 1250,
-  margin: '3rem auto',
+  margin: '1rem auto',
   
 
   p: {
@@ -20,7 +20,11 @@ export const ProjetosContainer = styled('main',{
 
   '@media screen and (max-width: 768px)': {
     padding: '1.3rem',
-    margin: '2rem auto',
+
+    p: {
+      position: 'absolute',
+      fontSize: '2rem'
+    }
   }
 })
 
@@ -30,6 +34,7 @@ export const CardProjetos = styled('section',{
   alignItems: 'center',
   
   marginBottom: '2rem',
+
 })
 
 export const Projeto = styled('section',{
@@ -44,7 +49,7 @@ export const Projeto = styled('section',{
   width: '70%',
   lineHeight: '2rem',
 
-  h2: {
+  h1: {
     fontSize: '2rem',
     fontWeight: 'bold',
     color: 'white',
@@ -52,7 +57,7 @@ export const Projeto = styled('section',{
     marginBottom: '1rem'
   },
 
-  h4: {
+  h3: {
     fontSize: '1.2rem',
     color: '$corFonte',
   },
@@ -65,20 +70,33 @@ export const Projeto = styled('section',{
   },
 
   '@media screen and (max-width: 768px)': {
-    borderBottom: 'none',
     
-    h2: {
-      width: '100vh'
+    borderBottom: 'none',
+    marginTop: '-1rem',
+    
+    h1: {
+      fontSize: '2rem'
     },
 
-    h4: {
-      width: '90vh',
+    h3: {
+      fontSize: '0.7rem',
       paddingBottom: '2rem',
       borderBottom: '1px solid $corSecundaria',
     },
 
-    img:{ 
-      marginBottom: '2rem'
+    img:{
+      width: 270,
+      height: 310,
+      marginBottom: '-1rem',
+    },
+
+    a: {
+      img:{
+        width: 40,
+        height: 40,
+
+        marginBottom: '1rem'
+      }
     }
 
   }
