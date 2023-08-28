@@ -36,7 +36,7 @@ export const CardContato = styled('section',{
   },
 
   '@media screen and (max-width: 768px)': {
-    margin: '3rem',
+    marginTop: '2rem',
   }
 })
 
@@ -85,5 +85,21 @@ export const Contato = styled('section',{
       fontSize: '1.1rem',
     },
     transition: '0.5s',
+  },
+
+  '@media screen and (max-width: 768px)': {
+    height: '6rem',
+    width: '19rem',
+
+    button: {
+      fontSize: '1rem',
+      width: '19rem',
+
+      marginTop: '-2rem'
+    },
+
+    h2: {
+      fontSize: '1.2rem'
+    }
   }
 })
