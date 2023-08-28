@@ -72,7 +72,7 @@ export const Projeto = styled('section',{
   '@media screen and (max-width: 768px)': {
     
     borderBottom: 'none',
-    marginTop: '-1rem',
+    marginTop: '1.5rem',
     
     h1: {
       fontSize: '2rem'
