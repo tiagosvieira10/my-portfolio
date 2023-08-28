@@ -43,7 +43,11 @@ export const HistoryContainer = styled('div',{
   span: {
     fontSize: '1.5rem',
     color: '$corFonte',
-    lineHeight: '1.9'
+    lineHeight: '1.9',
+
+    strong: {
+      color: 'rgb(255, 255, 255)'
+    }
   },
 
   //Responsividade

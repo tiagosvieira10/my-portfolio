@@ -14,7 +14,7 @@ export default function Sobre(){
         <HistoryContainer>
           <div></div>
           <h1>Que bom ter você por aqui, eu sou Tiago Vieira</h1>
-          <span>Minha trajetória na programação teve início em 2018, quando dei os primeiros passos no mundo da lógica de programação e em C++. Após uma pausa para cursar Engenharia na Universidade Federal do Vale do São Francisco, retomei meu percurso no início de 2022. Foi nesse momento que redescobri meu fascínio pelo universo do JavaScript e suas incríveis possibilidades</span>
+          <span>Minha trajetória na programação teve início em 2018, quando dei os primeiros passos no mundo da lógica de programação e em C++. Após uma pausa para cursar Engenharia na Universidade Federal do Vale do São Francisco, retomei meu percurso no início de 2022. Foi nesse momento que redescobri meu fascínio pelo universo do JavaScript e suas incríveis possibilidades. <strong>Deslizando para baixo, você encontrará minhas especialidades e formações acadêmicas.</strong></span>
         </HistoryContainer>
 
         <figure>
