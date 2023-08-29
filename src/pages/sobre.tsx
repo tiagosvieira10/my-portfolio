@@ -93,7 +93,7 @@ export default function Sobre(){
           </Education>
 
           <Education>
-            <h3>UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO <strong> /</strong> 2018 - 2023 </h3>
+            <h3>UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO <strong> /</strong> 2018 - 2022 </h3>
             <h1>Engenharia Mecânica</h1>
             <h4>Cursei a graduação durante quatro anos, aprimorando habilidades em áreas como lógica, cálculo e análise crítica. Durante o período de 2022 a 2023, redescobri minha paixão pela programação, levando-me a fazer a transição para a Engenharia de Software. Essa mudança me permitiu aproveitar conhecimentos prévios e experiências valiosas, agora aplicados em um campo que me inspira profundamente.</h4>
           </Education>
