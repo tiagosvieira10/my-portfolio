@@ -1,5 +1,5 @@
 import gitHub from  '@/assets/github.svg'
-import { P1, P2, P3, P4, P5, P6, P7, P8, Portfolio } from "@/assets/projetosLive";
+import { P1, P2, P3, P4, P5, P6, P7, P8, P9, Portfolio } from "@/assets/projetosLive";
 import { CardProjetos, Projeto, ProjetosContainer } from "@/styles/pages/projetos";
 import Image from "next/image";
 import Link from 'next/link';
@@ -41,6 +41,15 @@ export default function Portifolio(){
         </Link>
         <h1>Nalibeads e-commerce</h1>
         <h3>E-commerce para loja de produtos artesanais criada com Next.JS e API do stripe</h3>
+      </Projeto>
+
+      <Projeto>
+        <Image src={P9} width={800} height={800} alt=""/>
+        <Link href={'https://github.com/tiagosvieira10/ignite-call'} target="blank">
+          <Image src={gitHub} width={70} height={70} alt="" /> 
+        </Link>
+        <h1>Ignite Call</h1>
+        <h3>Projeto para agendamento, construido com Next.JS, Prisma para banco de dados entre outras tecnologias</h3>
       </Projeto>
 
       <Projeto>

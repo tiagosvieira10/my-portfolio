@@ -7,3 +7,5 @@ export { default as P5 } from './5.svg';
 export { default as P6 } from './6.svg';
 export { default as P7 } from './7.svg';
 export { default as P8 } from './8.svg';
+export { default as P9 } from './9.svg';
+
