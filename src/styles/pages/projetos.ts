@@ -70,7 +70,7 @@ export const Projeto = styled('section',{
   },
 
   '@media screen and (max-width: 768px)': {
-    
+  
     borderBottom: 'none',
     marginTop: '1.5rem',
     
@@ -87,17 +87,32 @@ export const Projeto = styled('section',{
     img:{
       width: 270,
       height: 310,
-      marginBottom: '-1rem',
-    },
 
+      marginLeft: '-2rem'
+    },
+  }
+})
+export const VisitProject = styled('section',{
+  display: 'flex',
+  alignItems: 'center',
+  marginTop: '-8rem',
+  position: 'absolute',
+
+  gap: '1rem',
+
+  '&:hover': {
+    cursor: 'pointer'
+  },
+
+  '@media screen and (max-width: 768px)': {
     a: {
-      img:{
+      marginBottom: '-10rem',
+      img: {
         width: 40,
         height: 40,
 
-        marginBottom: '1rem'
+        marginLeft: '0rem'
       }
     }
-
   }
 })
