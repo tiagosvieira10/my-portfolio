@@ -146,7 +146,7 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P9} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/projetoKaban'} target="blank" title='Clique para ver o projeto em funcionamento'>
+          <Link href={'https://youtu.be/dVzmSdM_wxg'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
           <Link href={'https://github.com/tiagosvieira10/projetoKaban'} target="blank" title='Link do repositório no GitHub'>
@@ -160,7 +160,7 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P10} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/conversorDeMoeda'} target="blank" title='Clique para ver o projeto em funcionamento'>
+          <Link href={'https://youtu.be/owEDjyICONk'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
           <Link href={'https://github.com/tiagosvieira10/conversorDeMoeda'} target="blank" title='Link do repositório no GitHub'>
