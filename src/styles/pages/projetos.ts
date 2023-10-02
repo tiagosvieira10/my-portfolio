@@ -69,6 +69,8 @@ export const Projeto = styled('section',{
     }
   },
 
+
+
   '@media screen and (max-width: 768px)': {
   
     borderBottom: 'none',
@@ -103,7 +105,7 @@ export const VisitProject = styled('section',{
   '&:hover': {
     cursor: 'pointer'
   },
-
+  
   '@media screen and (max-width: 768px)': {
     a: {
       marginBottom: '-10rem',

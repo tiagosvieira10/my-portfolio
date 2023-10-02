@@ -20,10 +20,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P1} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/coffe-delivery'} target="blank">
+          <Link href={'https://youtu.be/dSbWw53P1IM'} target="blank" title="Clique para ver o projeto em funcionamento">
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/coffe-delivery'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/coffe-delivery'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -34,10 +34,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P2} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/my-portfolio'} target="blank">
+          <Link href={'/'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/my-portfolio'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/my-portfolio'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -48,10 +48,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P3} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/dtMoney'} target="blank">
+          <Link href={'https://youtu.be/Er1p6pD3Mc0'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/dtMoney'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/dtMoney'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -62,10 +62,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P4} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/04-shop'} target="blank">
+          <Link href={'https://youtu.be/VCuaIS-hS2A'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/04-shop'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/04-shop'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -76,10 +76,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P11} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/ignite-call'} target="blank">
+          <Link href={'https://youtu.be/_d3ignt5eAA'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/ignite-call'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/ignite-call'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -90,10 +90,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P5} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/ignitefeed'} target="blank">
+          <Link href={'https://youtu.be/jVM0bQ93f-I'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/ignitefeed'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/ignitefeed'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -104,10 +104,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P6} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/pricingTable'} target="blank">
+          <Link href={'https://youtu.be/qN3gI5L5p3Y'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/pricingTable'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/pricingTable'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -118,10 +118,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P7} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/twitter-ui'} target="blank">
+          <Link href={'https://youtu.be/7o07ghEHoK0'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/twitter-ui'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/twitter-ui'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -132,10 +132,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P8} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/geradorDeSenha'} target="blank">
+          <Link href={'https://youtu.be/Mu2OCtrJ-V4'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/geradorDeSenha'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/geradorDeSenha'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -146,10 +146,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P9} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/projetoKaban'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/projetoKaban'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/projetoKaban'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/projetoKaban'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
@@ -160,10 +160,10 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P10} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://github.com/tiagosvieira10/conversorDeMoeda'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/conversorDeMoeda'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/conversorDeMoeda'} target="blank">
+          <Link href={'https://github.com/tiagosvieira10/conversorDeMoeda'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
