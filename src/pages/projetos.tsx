@@ -62,6 +62,20 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P4} width={800} height={800} alt=""/>
         <VisitProject>
+          <Link href={'https://youtu.be/DdLos8jAO40'} target="blank" title='Clique para ver o projeto em funcionamento'>
+            <Image src={videoProject} width={70} height={70} alt="" /> 
+          </Link>
+          <Link href={'https://github.com/tiagosvieira10/04-shop'} target="blank" title='Link do repositório no GitHub'>
+            <Image src={gitHub} width={70} height={70} alt="" /> 
+          </Link>
+        </VisitProject>
+        <h1>GitHub Blog</h1>
+        <h3>Blog criado com React, TypeScript, Vite, Styled-components. Blog para posts na plataforma do GitHub</h3>
+      </Projeto>
+
+      <Projeto>
+        <Image src={P4} width={800} height={800} alt=""/>
+        <VisitProject>
           <Link href={'https://youtu.be/VCuaIS-hS2A'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
