@@ -9,4 +9,5 @@ export { default as P8 } from './8.svg';
 export { default as P9 } from './9.svg';
 export { default as P10 } from './10.svg';
 export { default as P11 } from './11.svg'
+export { default as P12 } from './12.svg'
 

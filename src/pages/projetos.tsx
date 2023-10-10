@@ -1,6 +1,6 @@
 import gitHub from  '@/assets/github.svg'
 import videoProject from '@/assets/video.svg'
-import { P1, P10, P11, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
+import { P1, P10, P11, P12, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
 import { CardProjetos, Projeto, ProjetosContainer, VisitProject } from "@/styles/pages/projetos";
 import Image from "next/image";
 import Link from 'next/link';
@@ -60,7 +60,7 @@ export default function Portifolio(){
       </Projeto>
 
       <Projeto>
-        <Image src={P4} width={800} height={800} alt=""/>
+        <Image src={P12} width={800} height={800} alt=""/>
         <VisitProject>
           <Link href={'https://youtu.be/DdLos8jAO40'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
