@@ -1,6 +1,6 @@
 import gitHub from  '@/assets/github.svg'
 import videoProject from '@/assets/video.svg'
-import { P1, P10, P11, P12, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
+import { P1, P10, P11, P12, P13, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
 import { CardProjetos, Projeto, ProjetosContainer, VisitProject } from "@/styles/pages/projetos";
 import Image from "next/image";
 import Link from 'next/link';
@@ -99,6 +99,20 @@ export default function Portifolio(){
         </VisitProject>
         <h1>Ignite Call</h1>
         <h3>Projeto para agendamento, construido com Next.JS, Prisma para banco de dados entre outras tecnologias</h3>
+      </Projeto>
+
+      <Projeto>
+        <Image src={P13} width={800} height={800} alt=""/>
+        <VisitProject>
+          <Link href={'https://youtu.be/FbAhDmgD54U'} target="blank" title='Clique para ver o projeto em funcionamento'>
+            <Image src={videoProject} width={70} height={70} alt="" /> 
+          </Link>
+          <Link href={'https://github.com/tiagosvieira10/ignite-call'} target="blank" title='Link do repositório no GitHub'>
+            <Image src={gitHub} width={70} height={70} alt="" /> 
+          </Link>
+        </VisitProject>
+        <h1>Weather App</h1>
+        <h3>Meu primeiro projeto realizado com Angular utilizando os princípios básicos do framework. Integração com Api do Weather para identificar informações meteorológicas da cidade pesquisada. Trazendo informações de temperatura, vento, humidade entre outras.</h3>
       </Projeto>
 
       <Projeto>
