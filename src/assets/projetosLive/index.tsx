@@ -11,5 +11,8 @@ export { default as P10 } from './10.svg';
 export { default as P11 } from './11.svg'
 export { default as P12 } from './12.svg'
 export { default as P13 } from './13.svg'
+export { default as P14 } from './14.svg'
+export { default as P15 } from './15.svg'
+
 
 

@@ -1,6 +1,6 @@
 import gitHub from  '@/assets/github.svg'
 import videoProject from '@/assets/video.svg'
-import { P1, P10, P11, P12, P13, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
+import { P1, P10, P11, P12, P13, P14, P15, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
 import { CardProjetos, Projeto, ProjetosContainer, VisitProject } from "@/styles/pages/projetos";
 import Image from "next/image";
 import Link from 'next/link';
@@ -18,7 +18,7 @@ export default function Portifolio(){
     <CardProjetos>
       
       <Projeto>
-        <Image src={P1} width={800} height={800} alt=""/>
+        <Image src={P15} width={800} height={800} alt=""/>
         <VisitProject>
           <Link href={'https://youtu.be/dSbWw53P1IM'} target="blank" title="Clique para ver o projeto em funcionamento">
             <Image src={videoProject} width={70} height={70} alt="" /> 
@@ -127,6 +127,20 @@ export default function Portifolio(){
         </VisitProject>
         <h1>Rede social</h1>
         <h3>Projeto de rede social criada com Vite, React e TypeScript</h3>
+      </Projeto>
+
+      <Projeto>
+        <Image src={P14} width={800} height={800} alt=""/>
+        <VisitProject>
+          <Link href={'https://youtu.be/jVM0bQ93f-I'} target="blank" title='Clique para ver o projeto em funcionamento'>
+            <Image src={videoProject} width={70} height={70} alt="" /> 
+          </Link>
+          <Link href={'https://github.com/tiagosvieira10/ignitefeed'} target="blank" title='Link do repositório no GitHub'>
+            <Image src={gitHub} width={70} height={70} alt="" /> 
+          </Link>
+        </VisitProject>
+        <h1>E-mail com Html</h1>
+        <h3>Teste para produção de e-mail comercial com Html</h3>
       </Projeto>
 
       <Projeto>
