@@ -20,7 +20,7 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P15} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://youtu.be/dSbWw53P1IM'} target="blank" title="Clique para ver o projeto em funcionamento">
+          <Link href={'https://youtu.be/Sb2LsJkF5cg'} target="blank" title="Clique para ver o projeto em funcionamento">
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
           <Link href={'https://github.com/tiagosvieira10/coffe-delivery'} target="blank" title='Link do repositório no GitHub'>
@@ -132,7 +132,7 @@ export default function Portifolio(){
       <Projeto>
         <Image src={P14} width={800} height={800} alt=""/>
         <VisitProject>
-          <Link href={'https://youtu.be/jVM0bQ93f-I'} target="blank" title='Clique para ver o projeto em funcionamento'>
+          <Link href={'https://youtu.be/4ilq86F9wmU'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
           <Link href={'https://github.com/tiagosvieira10/ignitefeed'} target="blank" title='Link do repositório no GitHub'>
