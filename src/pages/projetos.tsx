@@ -135,7 +135,7 @@ export default function Portifolio(){
           <Link href={'https://youtu.be/4ilq86F9wmU'} target="blank" title='Clique para ver o projeto em funcionamento'>
             <Image src={videoProject} width={70} height={70} alt="" /> 
           </Link>
-          <Link href={'https://github.com/tiagosvieira10/ignitefeed'} target="blank" title='Link do repositório no GitHub'>
+          <Link href={'https://github.com/tiagosvieira10/testeEmailMark'} target="blank" title='Link do repositório no GitHub'>
             <Image src={gitHub} width={70} height={70} alt="" /> 
           </Link>
         </VisitProject>
