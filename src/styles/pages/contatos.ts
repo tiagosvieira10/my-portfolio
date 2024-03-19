@@ -63,7 +63,7 @@ export const Contato = styled('section',{
 
   a: {
     textDecoration: 'none',
-    color: 'white'
+    color: 'white',
   },
 
   button: {
