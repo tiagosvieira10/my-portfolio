@@ -27,7 +27,7 @@ export const AboutContainer = styled('main',{
 export const HistoryContainer = styled('div',{
   maxWidth: '60%',
 
-  div:{
+  'div.barraSuperior':{
     width: '10rem',
     borderTop: '0.6rem solid $corFonte',
   },
@@ -64,7 +64,7 @@ export const HistoryContainer = styled('div',{
       paddingBottom: '0.5rem',
     },
 
-    div: {
+    'div.barraSuperior': {
       width: '8rem',
       borderTop: '0.4rem solid $corFonte',
     },
