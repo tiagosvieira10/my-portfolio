@@ -5,7 +5,7 @@ import Head from "next/head";
 
 export default function Contatos() { 
   const [copiedTelefone, setCopiedTelefone] = useState(false);
-  const telefoneToCopy = '087992438502';
+  const telefoneToCopy = '087992438502'
 
   const copyTelefoneToClipboard = () => {
     navigator.clipboard.writeText(telefoneToCopy);

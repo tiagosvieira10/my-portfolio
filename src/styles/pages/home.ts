@@ -5,7 +5,7 @@ export const HomeContainer = styled('div', {
   maxWidth: 1250,
   margin: '3rem auto',
 
-  div: {
+  'div.barraSuperior': {
     width: '10rem',
     borderTop: '0.6rem solid $corSecundaria',
   },
@@ -32,7 +32,7 @@ export const HomeContainer = styled('div', {
       paddingBottom: '0.5rem',
     },
 
-    div: {
+    'div.barraSuperior': {
       width: '8rem',
       borderTop: '0.4rem solid $corSecundaria',
     },

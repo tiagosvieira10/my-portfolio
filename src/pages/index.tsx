@@ -2,6 +2,7 @@ import { HomeContainer, IconsContainer, ItemSidebar, Sidebar } from "@/styles/pa
 import Link from "next/link";
 import { ArrowRight, GithubLogo, LinkedinLogo, Scroll } from "phosphor-react";
 import Head from "next/head";
+import { motion } from "framer-motion";
 
 export default function Home(){
 
@@ -10,11 +11,16 @@ export default function Home(){
       <Head>
         <title>Início | Tiago Vieira</title>
       </Head>
-
-      <div></div>
+      <div className="barraSuperior"></div>
+      <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: -100 }}
+        transition={{ duration: 0.5 }}
+      >
       <h1>Olá, eu sou Tiago <br/> Software Developer</h1>
       <span>Desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>
-      
+      </motion.div>
       <IconsContainer>
         <Link href= {'https://www.linkedin.com/in/tiago-svieira/'} target="blank" ><LinkedinLogo size={40} color="#008BA4" weight="duotone"/></Link>
         <Link href= {'https://github.com/tiagosvieira10'} target="blank"><GithubLogo size={40} color="#008BA4" weight="duotone"/></Link>
