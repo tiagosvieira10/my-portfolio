@@ -18,7 +18,7 @@ export default function Home(){
         exit={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5 }}
       >
-      <h1>Olá, eu sou Tiago <br/> Software Developer</h1>
+      <h1><strong>Olá, eu sou Tiago <br/> Software</strong> Developer</h1>
       <span>Desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>
       </motion.div>
       <IconsContainer>

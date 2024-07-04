@@ -12,6 +12,11 @@ export const HomeContainer = styled('div', {
   
   h1: {
     color: 'white',
+    strong: {
+      background: 'linear-gradient(to right, white, #008BA4)',
+      backgroundClip: 'text',
+      color: 'transparent',
+    },
     fontSize: '6rem',
     paddingTop: '4rem',
     paddingBottom: '1rem',
