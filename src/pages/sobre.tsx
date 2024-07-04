@@ -21,7 +21,7 @@ export default function Sobre(){
             transition={{ duration: 0.5 }}
           >
             <h1>Que bom ter você por aqui, eu sou Tiago Vieira</h1>
-            <span>Minha trajetória na programação teve início em 2018, quando dei os primeiros passos no mundo da lógica de programação e em C++. Após uma pausa para cursar Engenharia na Universidade Federal do Vale do São Francisco, retomei meu percurso no início de 2022. Foi nesse momento que redescobri meu fascínio pelo universo do JavaScript e suas incríveis possibilidades. <strong>Deslizando para baixo, você encontrará minhas especialidades e formações acadêmicas.</strong></span>
+            <span>Minha trajetória na programação teve início em 2018, quando dei os primeiros passos no mundo da lógica de programação e em C++. Após uma pausa para cursar Engenharia na Universidade Federal do Vale do São Francisco, retomei meu percurso no início de 2022. Foi nesse momento que redescobri meu fascínio pelo universo do desenvolvimento e suas incríveis possibilidades. <strong>Deslizando para baixo, você encontrará minhas experiências, especialidades e formações acadêmicas.</strong></span>
           </motion.div>
         </HistoryContainer>
 
@@ -40,13 +40,37 @@ export default function Sobre(){
       </AboutContainer>
 
       <SkillsContainer>
-        <p> <span>/</span> MINHAS ESPECIALIDADES </p>
+        <p> <span>/</span> MINHAS EXPERIÊNCIAS </p>
+
+        <Education>
+          <h3>Prefeitura Municipal de Ouricuri <strong> /</strong> Junho 2024 - o momento</h3>
+          <h1>Desenvolvedor de Software</h1>
+          <h4>
+            . Desenvolvimento de soluções tecnológicas para otimizar processos internos;<br/>
+            . Gerenciamento e otimização de bancos de dados, garantindo segurança e integridade;<br/>
+            . Utilização de serviços AWS (EC2, S3, RDS) para implementação e gerenciamento de infraestrutura em nuvem;<br/>
+            . Colaboração com equipes multidisciplinares;
+            . Automação de processos. 
+          </h4>
+        </Education>
+
+        <Education>
+          <h3>Instituto Ação e Proteção<strong> /</strong> Novembro 2023 - Maio 2024</h3>
+          <h1>Desenvolvedor Front end</h1>
+          <h4>
+            . Construção de aplicação completa, utilizando React;<br/>
+            . Contribuição para o design e usabilidade, priorizando uma experiência do usuário (UX/UI);<br/>
+            . Manutenção regular da aplicação;<br/>
+            . Participação junto ao gerente do projetos em decisões de funcionalidade da aplicação. </h4>
+        </Education>
+
         <motion.div
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.7 }}
         >
+        <p className="skills"> TECNOLOGIAS <span>/</span> LINGUAGENS </p>
           <CardSkills>
             <Skills>
               <Image src={React} width={100} height={100} alt=""/>
@@ -101,6 +125,19 @@ export default function Sobre(){
             whileInView={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.8 }}
+            >
+            <h3>CENTRO UNIVERSITÁRIO INTERNACIONAL<strong> /</strong> 2022 - 2026 </h3>
+            <h1>Engenharia de Software</h1>
+            <h4>A graduação em Engenharia de Software fornece um profundo entendimento das metodologias e práticas vitais para o desenvolvimento de sistemas de software avançados. Abrange áreas como design orientado a objetos, arquitetura de software, testes automatizados e gerenciamento de projetos.</h4>
+            </motion.div>
+          </Education>
+
+          <Education>
+            <motion.div
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.8 }}
           >
             <h3>DIGITAL HOUSE BRASIL <strong> /</strong> AGOSTO 2022 - MAIO 2023</h3>
             <h1>Desenvolvimento de Software</h1>
@@ -116,24 +153,10 @@ export default function Sobre(){
             transition={{ duration: 0.8 }}
           >
             <h3>ROCKETSEAT - IGNITE <strong> /</strong> MAIO 2023</h3>
-            <h1>Especialização em Desenvolvimento</h1>
+            <h1>Bootcamp de especialização e desenvolvimento</h1>
             <h4>Bootcamp de especialização e desenvolvimento, em React, React Native e Node. Com metodologia prática, baseada nos pilares do foco, prática e grupo</h4>
           </motion.div>
           </Education>
-
-          <Education>
-            <motion.div
-            initial={{ opacity: 0, x: 100 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 100 }}
-            transition={{ duration: 0.8 }}
-          >
-            <h3>CENTRO UNIVERSITÁRIO INTERNACIONAL<strong> /</strong> 2023 - 2027 </h3>
-            <h1>Engenharia de Software</h1>
-            <h4>A graduação em Engenharia de Software fornece um profundo entendimento das metodologias e práticas vitais para o desenvolvimento de sistemas de software avançados. Abrange áreas como design orientado a objetos, arquitetura de software, testes automatizados e gerenciamento de projetos.</h4>
-            </motion.div>
-          </Education>
-          
 
           <Education>
             <motion.div

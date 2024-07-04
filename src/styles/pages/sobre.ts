@@ -98,6 +98,11 @@ export const SkillsContainer = styled('footer',{
     color: 'white',
   },
 
+  'p.skills': {
+    display: 'flex',
+    justifyContent: 'center',
+  },
+
   '@media screen and (max-width: 768px)': {
     padding: '1.3rem',
     margin: '0 auto',
