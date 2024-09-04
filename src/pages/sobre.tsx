@@ -1,6 +1,6 @@
 import { AboutContainer, CardEducation, CardSkills, Education, EducationContainer, HistoryContainer, Skills, SkillsContainer } from "@/styles/pages/sobre";
 import fotoPerfil from '../assets/foto.svg';
-import { React, Next, Vite, Javascript, Typescript, Html, Css, Node  } from '../assets/logosSkills';
+import { React, Javascript, Typescript, Html, Css, Node, AWS, GoogleCloud, SQL, Java, Php, Angular } from '../assets/logosSkills';
 import Image from "next/image";
 import Head from "next/head";
 import { motion } from "framer-motion";
@@ -78,13 +78,13 @@ export default function Sobre(){
             </Skills>
 
             <Skills>
-              <Image src={Next} width={100} height={100} alt=""/>
-              <h2>Next.js</h2>
+              <Image src={Angular} width={100} height={100} alt=""/>
+              <h2>Angular</h2>
             </Skills>
 
             <Skills>
-              <Image src={Vite} width={100} height={100} alt=""/>
-              <h2>Vite</h2>
+              <Image src={Javascript} width={100} height={100} alt=""/>
+              <h2>JavaScript</h2>
             </Skills>
 
             <Skills>
@@ -93,8 +93,8 @@ export default function Sobre(){
             </Skills>
 
             <Skills>
-              <Image src={Javascript} width={100} height={100} alt=""/>
-              <h2>JavaScript</h2>
+              <Image src={Node} width={100} height={100} alt=""/>
+              <h2>Node.js</h2>
             </Skills>
 
             <Skills>
@@ -108,8 +108,28 @@ export default function Sobre(){
             </Skills>
 
             <Skills>
-              <Image src={Node} width={100} height={100} alt=""/>
-              <h2>Node</h2>
+              <Image src={Php} width={100} height={100} alt=""/>
+              <h2>PHP</h2>
+            </Skills>
+
+            <Skills>
+              <Image src={Java} width={100} height={100} alt=""/>
+              <h2>Java</h2>
+            </Skills>
+
+            <Skills>
+              <Image src={SQL} width={100} height={100} alt=""/>
+              <h2>SQL</h2>
+            </Skills>
+
+            <Skills>
+              <Image src={GoogleCloud} width={100} height={100} alt=""/>
+              <h2>Google Cloud</h2>
+            </Skills>
+
+            <Skills>
+              <Image src={AWS} width={100} height={100} alt=""/>
+              <h2>AWS</h2>
             </Skills>
 
           </CardSkills>
