@@ -19,7 +19,7 @@ export default function Home(){
         transition={{ duration: 0.5 }}
       >
       <h1>Olá, eu sou Tiago <br/> <strong>Software Developer</strong></h1>
-      <span>Desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, onde você encontra um pouco<br/>mais sobre mim e meus projetos</span>
+      <span>Desenvolvedor de software, entusiasta em soluções através da<br/>tecnologia. Este é meu portfólio, um espaço onde compartilho minha trajetória, meus projetos <br />e a experiência do meu trabalho.</span>
       </motion.div>
       <IconsContainer>
         <Link href= {'https://www.linkedin.com/in/tiago-svieira/'} target="blank" ><LinkedinLogo size={40} color="#008BA4" weight="duotone"/></Link>
