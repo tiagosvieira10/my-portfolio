@@ -1,8 +1,8 @@
 import { HomeContainer, IconsContainer, ItemSidebar, Sidebar } from "@/styles/pages/home";
-import Link from "next/link";
-import { ArrowRight, GithubLogo, LinkedinLogo, Scroll } from "phosphor-react";
-import Head from "next/head";
 import { motion } from "framer-motion";
+import Head from "next/head";
+import Link from "next/link";
+import { ArrowRight, GithubLogo, LinkedinLogo } from "phosphor-react";
 
 export default function Home(){
 
@@ -28,13 +28,13 @@ export default function Home(){
 
       <Sidebar>
         <ItemSidebar>
-          <span>Sobre mim</span>
+          <span>Experiência</span>
           <p>Minha história e minhas especialidades</p>
           <Link href={'/sobre'}>LER MAIS<ArrowRight size={25}/></Link>
         </ItemSidebar>
         
         <ItemSidebar>
-          <span>Meus Trabalhos</span>
+          <span>Projetos</span>
           <p>Aqui estão alguns dos meus projetos</p>
           <Link href={'/projetos'}>VER MAIS<ArrowRight size={25}/></Link>
         </ItemSidebar>

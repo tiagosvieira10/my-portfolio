@@ -1,10 +1,10 @@
-import gitHub from  '@/assets/github.svg'
-import videoProject from '@/assets/video.svg'
-import { P1, P10, P11, P12, P13, P14, P15, P16, P2, P3, P4, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
+import gitHub from '@/assets/github.svg';
+import { P10, P11, P12, P13, P14, P15, P16, P2, P3, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
+import videoProject from '@/assets/video.svg';
 import { CardProjetos, Projeto, ProjetosContainer, VisitProject } from "@/styles/pages/projetos";
+import Head from "next/head";
 import Image from "next/image";
 import Link from 'next/link';
-import Head from "next/head";
 
 export default function Portifolio(){
     return (
@@ -84,7 +84,7 @@ export default function Portifolio(){
         <h3>Blog criado com React, TypeScript, Vite, Styled-components. Blog para posts na plataforma do GitHub</h3>
       </Projeto>
 
-      <Projeto>
+      {/* <Projeto>
         <Image src={P4} width={800} height={800} alt=""/>
         <VisitProject>
           <Link href={'https://youtu.be/VCuaIS-hS2A'} target="blank" title='Clique para ver o projeto em funcionamento'>
@@ -96,7 +96,7 @@ export default function Portifolio(){
         </VisitProject>
         <h1>Nalibeads e-commerce</h1>
         <h3>E-commerce para loja de produtos artesanais criada com Next.JS e API do stripe</h3>
-      </Projeto>
+      </Projeto> */}
 
       <Projeto>
         <Image src={P11} width={800} height={800} alt=""/>
