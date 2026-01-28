@@ -1,5 +1,5 @@
 import gitHub from '@/assets/github.svg';
-import { P10, P11, P12, P13, P14, P15, P16, P2, P3, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
+import { P10, P11, P12, P13, P14, P15, P16, P17, P2, P3, P5, P6, P7, P8, P9 } from "@/assets/projetosLive";
 import videoProject from '@/assets/video.svg';
 import { CardProjetos, Projeto, ProjetosContainer, VisitProject } from "@/styles/pages/projetos";
 import Head from "next/head";
@@ -25,7 +25,18 @@ export default function Portifolio(){
           </Link>
         </VisitProject>
         <h1>Instituto Ação e Proteção</h1>
-        <h3>Projeto desenvolvido para o IAP <Link href={'https://acaoeprotecao.com.br/'} target="blank" title="Clique para ver o projeto em funcionamento">Link</Link> </h3>
+        <h3>Projeto desenvolvido para o Instituto Ação e Proteção em São Paulo <Link href={'https://acaoeprotecao.com.br/'} target="blank" title="Clique para ver o projeto em funcionamento">Link</Link> </h3>
+      </Projeto>
+
+      <Projeto>
+        <Image src={P17} width={800} height={800} alt=""/>
+        <VisitProject>
+          <Link href={'https://acaoeprotecao.com.br/'} target="blank" title="Clique para ver o projeto em funcionamento">
+            <Image src={videoProject} width={70} height={70} alt="" /> 
+          </Link>
+        </VisitProject>
+        <h1>Império Ferragens</h1>
+        <h3>Projeto desenvolvido para a empresa Império Ferragens em Ouricuri <Link href={'https://www.imperioferragens.com.br/'} target="blank" title="Clique para ver o projeto em funcionamento">Link</Link> </h3>
       </Projeto>
       
       <Projeto>
